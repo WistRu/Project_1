@@ -1,47 +1,69 @@
-// to String
-//1
-console.log(String(null));
-console.log(String(4));
-//2
-console.log(typeof(5+""));
-const num = 5;
-console.log("http://vk.com/catalog/" + num);
+let x = 5; console.log(x++);
 
-const fontSize = 26 + 'px';
+console.log([] + false - null + true);
+console.log(typeof([] + false - null + true));
+console.log([]+false-null+true);
 
-//to Number
-//1
-console.log(typeof(Number('4')));
+let y=1;
+let x=y=2;
+console.log(x);
 
-//2
-console.log(typeof(+'4'));
+console.log([]+1+2);
 
-//3
-console.log(typeof(parseInt('15px', 10)));
+console.log("1"[0]);
 
-let answ = +prompt('hi', "");
+console.log(2&&1&&null&&0&&undefined);
 
-//to boolean
+console.log(!!(1 && 2) == (1 && 2));
+console.log(null || 2 && 3 || 4);
+console.log(0 || null);
 
-// 0, '', null, undefined, NaN - false;
+console.log(0 || "" || 2 || undefined || true || false);
 
-//1
-let switcher = null;
-if (switcher) {
-    console.log('Working...');
-}
+// // to String
+// //1
+// console.log(String(null));
+// console.log(String(4));
+// //2
+// console.log(typeof(5+""));
+// const num = 5;
+// console.log("http://vk.com/catalog/" + num);
 
-switcher = 1;
+// const fontSize = 26 + 'px';
 
-if (switcher) {
-    console.log('Working...');
-}
+// //to Number
+// //1
+// console.log(typeof(Number('4')));
 
-//2
-console.log(typeof(Boolean('4')));
+// //2
+// console.log(typeof(+'4'));
 
-//3
-console.log(typeof(!!"444"));
+// //3
+// console.log(typeof(parseInt('15px', 10)));
+
+// let answ = +prompt('hi', "");
+
+// //to boolean
+
+// // 0, '', null, undefined, NaN - false;
+
+// //1
+// let switcher = null;
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// switcher = 1;
+
+// if (switcher) {
+//     console.log('Working...');
+// }
+
+// //2
+// console.log(typeof(Boolean('4')));
+
+// //3
+// console.log(typeof(!!"444"));
 
 
 // let str = 'some';
